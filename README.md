@@ -7,7 +7,6 @@ Este projeto apresenta uma análise de vendas desenvolvida no Power BI, com foco
 
 ## 🖼️ Visual do Relatório
 
-> _📌 Insira abaixo um screenshot do dashboard para ilustrar o relatório._
 
 ![Exemplo do Dashboard](relatório.png)
 
