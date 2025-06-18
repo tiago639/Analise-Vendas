@@ -87,22 +87,14 @@ O principal objetivo deste projeto é transformar dados brutos de vendas em **in
 - Conexão com APIs externas (ERP, CRM).
 
 ---
-
-## 👤 Autor
-
-- **Tiago Fonseca da Silva**
-- [🔗 LinkedIn](https://linkedin.com/in/tiago-fonseca-da-silva)
-- [🌐 Portfólio](https://github.com/tiago639)
-- 📧 tiago@email.com *(opcional)*
-
----
-
 ## 📄 Licença
 
-Este projeto está sob a licença **MIT** – veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença **MIT** – veja o arquivo [LICENSE](LICENSE) para mais detalhes
+## 👤 Autor
+
+- **Tiago Fonseca **
 
 ---
-
 ## 💬 Contribuições e Feedbacks
 
 Fique à vontade para abrir um **Issue** ou um **Pull Request** caso tenha sugestões, melhorias ou queira colaborar! 🚀
