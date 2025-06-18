@@ -96,9 +96,3 @@ Este projeto está licenciado sob a **Licença MIT** — veja o arquivo [LICENSE
 ## 👤 Autor
 
 **Tiago Fonseca**
-
----
-
-## 💬 Contribuições e Feedbacks
-
-Fique à vontade para abrir uma **Issue** ou um **Pull Request** caso tenha sugestões, melhorias ou queira colaborar! 🚀
