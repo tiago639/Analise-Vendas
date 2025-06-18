@@ -1,6 +1,6 @@
 # 📊 Análise de Vendas - Power BI
 
-Este projeto apresenta um **Dashboard Interativo de Vendas** desenvolvido no **Power BI**, com foco em **análise de desempenho comercial, acompanhamento de metas e geração de insights estratégicos** para apoiar a tomada de decisões.
+Este projeto apresenta um **Dashboard Interativo de Vendas** desenvolvido no **Power BI**, com foco na **análise de desempenho comercial, acompanhamento de metas e geração de insights estratégicos** para apoiar a tomada de decisões.
 
 ---
 
@@ -12,89 +12,93 @@ Este projeto apresenta um **Dashboard Interativo de Vendas** desenvolvido no **P
 
 ---
 
-## 🎯 Objetivo do Projeto
+## 🎯 Objetivos do Projeto
 
 O principal objetivo deste projeto é transformar dados brutos de vendas em **informações valiosas e acionáveis**, permitindo que gestores e analistas possam:
 
-- 📈 **Avaliar o desempenho** por período, produto, região, canal e equipe de vendas.
-- 🎯 **Acompanhar metas e resultados em tempo real.**
-- 🔎 **Identificar padrões de comportamento e tendências de consumo.**
-- 💡 **Apoiar a gestão comercial e estratégica** por meio de indicadores relevantes.
-- 🚀 **Facilitar a tomada de decisão rápida e baseada em dados.**
+- 📈 Avaliar o desempenho por período, produto, região, canal e equipe de vendas;
+- 🎯 Acompanhar metas e resultados em tempo real;
+- 🔎 Identificar padrões de comportamento e tendências de consumo;
+- 💡 Apoiar a gestão comercial e estratégica com indicadores relevantes;
+- 🚀 Facilitar a tomada de decisões baseada em dados.
 
 ---
 
-## 🧠 Principais Funcionalidades do Relatório
+## 🧠 Funcionalidades do Relatório
 
-- ✔️ **Filtros e segmentações interativas** (Ano, Mês, Região, Produto, Vendedor, Canal de Vendas, etc.).
+- ✔️ **Filtros e segmentações interativas** (Ano, Mês, Região, Produto, Vendedor, Canal de Vendas);
 - ✔️ **KPIs Essenciais**, como:
   - Faturamento
   - Ticket Médio
-  - Crescimento vs. Período Anterior
+  - Crescimento vs. período anterior
   - Margem de Lucro
   - Meta x Realizado
-- ✔️ **Análise Comparativa:** mês a mês, ano a ano, por produto, região ou vendedor.
-- ✔️ **Dashboard Gerencial** com visão macro e detalhada.
-- ✔️ **Gráficos de Tendência, Mapas, Barras, Pizza, Indicadores e Cartões.**
-- ✔️ Alertas visuais para **desvios de metas** e **análise de oportunidades.**
+- ✔️ **Análises comparativas**: mês a mês, ano a ano, por produto, região ou vendedor;
+- ✔️ **Dashboard gerencial** com visão macro e detalhada;
+- ✔️ Gráficos de tendência, mapas, barras, pizza, indicadores e cartões;
+- ✔️ Alertas visuais para **desvios de metas** e **identificação de oportunidades**.
 
 ---
 
-## 🔗 Arquitetura e Modelagem de Dados
+## 🧱 Arquitetura e Modelagem de Dados
 
-- 🔗 Modelagem Estrela (Star Schema):
-  - **Fato_Vendas** (quantidade, faturamento, custo, lucro, data, vendedor, etc.)
-  - **Dim_Produto**
-  - **Dim_Cliente**
-  - **Dim_Vendedor**
-  - **Dim_Tempo**
-  - **Dim_Região / Dim_Canal**
-
-- 📊 Dados tratados e transformados via **Power Query**.
-- 🧠 Cálculos desenvolvidos com **DAX** para KPIs, análises temporais e métricas avançadas.
+- 🔗 Modelagem Estrela (Star Schema), com:
+  - `Fato_Vendas` (quantidade, faturamento, custo, lucro, datas, vendedor, etc.)
+  - `Dim_Produto`
+  - `Dim_Cliente`
+  - `Dim_Vendedor`
+  - `Dim_Tempo`
+  - `Dim_Região` / `Dim_Canal`
+- 📊 Transformações via **Power Query (ETL)**;
+- 🧠 Cálculos e KPIs desenvolvidos com **DAX**.
 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
-- [**Power BI Desktop**](https://powerbi.microsoft.com/)
-- **Power Query** (ETL)
-- **DAX (Data Analysis Expressions)**
-- **Modelagem de Dados Relacional**
-- **Excel / CSV** como fonte de dados (ou outra conforme necessidade)
+- [Power BI Desktop](https://powerbi.microsoft.com/)
+- Power Query
+- DAX (Data Analysis Expressions)
+- Modelagem Relacional
+- Excel / CSV (como fonte de dados)
 
 ---
 
 ## ▶️ Como Usar este Projeto
 
-1. Faça o download do arquivo **`Analise de Venda.pbix`**.
-2. Abra no **Power BI Desktop**.
-3. Caso apareça erro de fonte de dados, atualize os caminhos:
-   - Menu **"Transformar Dados" → "Gerenciar Fontes"**.
-4. Clique em **Atualizar** para carregar os dados.
-5. Explore o relatório através das abas, filtros e segmentações.
+1. Faça o download do arquivo `Analise de Venda.pbix`;
+2. Abra no **Power BI Desktop**;
+3. Se necessário, atualize os caminhos das fontes de dados:
+   - Menu **"Transformar Dados" → "Gerenciar Fontes"**;
+4. Clique em **Atualizar** para recarregar os dados;
+5. Explore o relatório navegando pelas abas, filtros e segmentações.
 
-> 💡 *Dica:* Caso queira publicar na web ou compartilhar, pode usar o **Power BI Service (cloud)**.
+> 💡 *Dica:* Para publicação online, utilize o **Power BI Service (cloud)**.
 
 ---
 
 ## 🚀 Possíveis Evoluções Futuras
 
-- Integração com banco de dados em nuvem (Azure, AWS, SQL Server, etc.).
-- Criação de alertas automáticos via Power BI Service.
-- Aplicação de IA para previsão de vendas.
-- Desenvolvimento de relatórios mobile-friendly.
-- Conexão com APIs externas (ERP, CRM).
+- Integração com banco de dados em nuvem (Azure, AWS, SQL Server);
+- Criação de alertas automáticos via Power BI Service;
+- Previsão de vendas com IA;
+- Versão mobile-friendly do dashboard;
+- Integração com APIs externas (ERP, CRM).
 
 ---
+
 ## 📄 Licença
 
-Este projeto está sob a licença **MIT** – veja o arquivo [LICENSE](LICENSE) para mais detalhes
-## 👤 Autor
-
-- **Tiago Fonseca **
+Este projeto está licenciado sob a **Licença MIT** — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
+
+## 👤 Autor
+
+**Tiago Fonseca**
+
+---
+
 ## 💬 Contribuições e Feedbacks
 
-Fique à vontade para abrir um **Issue** ou um **Pull Request** caso tenha sugestões, melhorias ou queira colaborar! 🚀
+Fique à vontade para abrir uma **Issue** ou um **Pull Request** caso tenha sugestões, melhorias ou queira colaborar! 🚀
